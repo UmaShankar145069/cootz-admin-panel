@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./images/logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <!-- cootz logo -->
+    <img
+      class="logo"
+      src="./images/logo.png"
+      alt="cootz-logo"
+      style="width: 89px; height: 72px"
+    />
+    <p class="logo-title">COOTZ</p>
+
+    <!-- login section -->
+    <div class="login-container">
+      <h1 id="heading">LOGIN</h1>
+      <form action="/create" method="POST" id="form">
+        <img src="./images/user-logo.png" alt="user-logo" />
+        <input
+          class="field"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Username"
+          required
+        /><br />
+        <img src="./images/password-logo.png" alt="user-logo" />
+        <input
+          class="field"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        /><br />
+        <input type="submit" value="Login" />
+      </form>
+      <img src="./images/Ellipse.png" alt="ellipse" class="ellipse-img" />
+    </div>
+  </body>
+</html>
